@@ -6,6 +6,9 @@
         <title>Laravel-deploy</title>
     </head>
     <body class="antialiased">
-        Laravel-deploy
+        {{ $post-> name }}
+        <br>
+        {{ $post->age }}
+    
     </body>
 </html>
